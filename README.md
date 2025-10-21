@@ -1,4 +1,4 @@
-# An Explainable LLM for Disease Prediction (from Multimodal Data)
+# An Explainable LLM for Disease Prediction (from Multimodal Clinic Data)
 
 <br>
 
