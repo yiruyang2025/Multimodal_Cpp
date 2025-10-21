@@ -1,6 +1,6 @@
 # Multimodal_Cpp
 
-## An Explainable Clinical LLM Disease Prediction (from Multi-modal Clinical Data)
+## An Explainable Clinical LLM Disease Prediction (from Multimodal Data)
 
 <br>
 
