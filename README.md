@@ -66,8 +66,8 @@
 
 ### 1. Prerequisites
 
-Install CMake (version ≥ 3.18)
-Install dependencies: OpenCV, LibTorch (C++ API for PyTorch)
+  - Install CMake (version ≥ 3.18)
+  - Install dependencies: OpenCV, LibTorch (C++ API for PyTorch)
 
 
 ### 2. Build
