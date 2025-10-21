@@ -22,63 +22,43 @@
 
 ## Folder & File Descriptions
 
-`src/` – Source Code Folder
-Contains all core C++ source files and the build configuration
+  - `src/` – Source Code Folder
+    - Contains all core C++ source files and the build configuration
 
-`main.cpp` – Main program entry
-Orchestrates the entire pipeline: loads data, calls preprocessing and model modules, runs inference, and saves outputs
+  - `main.cpp` – Main program entry
+    - Orchestrates the entire pipeline: loads data, calls preprocessing and model modules, runs inference, and saves outputs
 
-`preprocess.cpp` – Image preprocessing module
-Handles image reading and normalization, resizing, denoising, augmentation, and other basic data preparation
+  - `preprocess.cpp` – Image preprocessing module
+    - Handles image reading and normalization, resizing, denoising, augmentation, and other basic data preparation
 
-`model.cpp` – Model logic module
-Loads or defines the neural network (often via LibTorch)
-Handles forward passes, feature extraction, and prediction
+  - `model.cpp` – Model logic module
+    - Loads or defines the neural network (often via LibTorch)
+    - Handles forward passes, feature extraction, and prediction
 
-`utils.hpp` – Utility header file
-Stores helper functions such as logging, timing, or path handling used across modules
+  - `utils.hpp` – Utility header file
+    - Stores helper functions such as logging, timing, or path handling used across modules
 
-`CMakeLists.txt` – Build configuration script
-Defines compilation rules and dependencies (e.g., OpenCV, Torch)
-Used by CMake to generate a Makefile and compile the project
+  - `CMakeLists.txt` – Build configuration script
+    - Defines compilation rules and dependencies (e.g., OpenCV, Torch)
+    - Used by CMake to generate a Makefile and compile the project
 
-
-<br>
-
-`data/` – Data Folder
-Holds sample or example image files (not full UK Biobank data, due to privacy)
-Can also include download instructions or preprocessing notes
+  - `data/` – Data Folder
+    - Holds sample or example image files (not full UK Biobank data, due to privacy)
+    - Can also include download instructions or preprocessing notes
 
 
-<br>
-
-`docs/` – Documentation Folder
-Contains research documentation: diagrams, methodology notes, references, and citation files
-Used for project reports or paper appendices
+  - `docs/` – Documentation Folder
+    - Contains research documentation: diagrams, methodology notes, references, and citation files
+    - Used for project reports or paper appendices
 
 
-<br>
+  - `results/` – Results Folder
+    - Stores outputs such as segmentation masks, metrics (CSV), or visualization figures (heatmaps, ROC curves, etc.)
 
 
-`results/` – Results Folder
-Stores outputs such as segmentation masks, metrics (CSV), or visualization figures (heatmaps, ROC curves, etc.)
-
-
-
-<br>
-
-
-`README.md` – Project Description
-Top-level markdown file that introduces the project purpose, dependencies, build and run instructions, and citation information.
-It is displayed automatically on the GitHub repository homepage
-
-
-
-<br>
-
-
-
-
+  - `README.md` – Project Description
+    - Top-level markdown file that introduces the project purpose, dependencies, build and run instructions, and citation information.
+    - It is displayed automatically on the GitHub repository homepage
 
 <br>
 
